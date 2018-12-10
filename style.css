@@ -1,0 +1,306 @@
+body {
+  background: #333;
+  height: 1500px;
+  background-color: #EAEAEA;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thuF { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+::-webkit-resizer { background-color: #666;}
+
+.mySlides {
+  display:none;
+}
+
+.grid:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.home {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: -2px;
+    font-weight: bolder;
+}
+
+.nav-item {
+    margin-right: 35px;
+}
+
+.nav-item, .nav-item1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.disc {
+align-content: center;
+}
+
+.col-6 {
+  margin-left: -25px;
+  
+}
+
+.col-6 p {
+  text-align: justify;
+  
+}
+
+.col-lg-6 h2, p {
+  margin-top: 55px;
+  margin-left: 50px;
+}
+
+.sr-only {
+  color: black; 
+}
+
+.soc {
+  padding: 175px;
+}
+
+.soc a {
+  color: inherit; 
+}
+
+a {
+  color: inherit; 
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 200px;
+  font-size: 13px;
+}
+
+
+
+/* desktop vers */
+@media (min-width: 992px) {
+  .nav-link .nav-link1 {
+      color: black !important;
+      
+  }
+  .nav-link .nav-link {
+      text-transform: uppercase;
+  }
+
+  .nav-link {
+    margin-right: 30px;
+}
+.col-lg-6 h2, p {
+  margin-top: 55px;
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.col-lg-6 h2, p{
+  margin-left: -50px;
+  
+}
+
+.col-lg-6 img {
+  margin-right: -100px;
+}
+
+}
+  
+  .jumbotron {
+      height: 640px;
+      weight: 1080px;
+  }
+
+  .jumbotron .display-4 {
+      font-size: 62px;
+  }
+
+  .byg h2 {
+      text-align: left;
+      font-weight: bold;
+  }
+
+  .byg2 {
+    margin-bottom: 50px;
+  }
+
+
+  .flaticon-instagram {
+  src: url(https://www.instagram.com/bangstergram/);
+  }
+  
+  .flaticon-youtube {
+    src: url(bit.lu/BANGYONGGUK);
+    }
+  
+  .flaticon-twitter-logo-silhouette {
+  src: url(https://twitter.com/bap_bangyongguk);
+  }
+
+  .flaticon-soundcloud {
+  src: url(https:/soundcloud.com/bangxter);
+  }
+
+  .testimonial h5 {
+      font-size: 32px;
+  }
+}
+
+.byg h2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.byg2 {
+margin-bottom: 50px;
+}
+.byg img {
+  align-content: center;
+    }
+  }
+
+  .byg p {
+    margin: 50px;
+  }
+
+@media (min-width: 576px) {
+  .jumbotron {
+    margin-top: 500px;
+  }
+
+  .byg img {
+align-content: center;
+  }
+}
+
+.jumbotron {
+  margin-top: -70px;
+}
+
+.music {
+  background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+  min-height: 100vh;
+
+}
+
+.container.gallery-container {
+  /* color: #35373a; */
+  min-height: 100vh;
+  /* border-radius: 20px; */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.container.video-container {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+/* .card-body p{
+  margin-left: -20px;
+}
+
+.card-text p {
+  margin-left: -20px;
+} */
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container.video-container {
+      border-radius: 0;
+  }
+}
+
+
+
+  /* Style the counter cards */
+
+  .card {
+    widows: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+    position: relative 20px 30px 20px 50px;
+    margin-left: -25px;
+  }
+
+  .card p {
+    margin-left: -30px;
+  }
+
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+  .card-column {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .card1 {
+      width: auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+      background-color: #f1f1f1;
+  }
+
+  .card h2, {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .card a {
+font-size: 15px;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
