@@ -20,7 +20,7 @@ html {
 ::-webkit-scrollbar-button {  background-color: #666; }
 ::-webkit-scrollbar-track {  background-color: #646464;}
 ::-webkit-scrollbar-track-piece { background-color: #000;}
-::-webkit-scrollbar-thuF { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
 ::-webkit-scrollbar-corner { background-color: #646464;}
 ::-webkit-resizer { background-color: #666;}
 
@@ -63,6 +63,10 @@ html {
     color: black;
 }
 
+.nav-item1 {
+  margin-right: -35px;
+}
+
 .disc {
 align-content: center;
 }
@@ -74,7 +78,6 @@ align-content: center;
 
 .col-6 p {
   text-align: justify;
-  
 }
 
 .col-lg-6 h2, p {
@@ -90,9 +93,6 @@ align-content: center;
   padding: 175px;
 }
 
-.soc a {
-  color: inherit; 
-}
 
 a {
   color: inherit; 
@@ -102,7 +102,7 @@ a {
 .footer {
   text-align: center;
   text-transform: uppercase;
-  margin-top: 200px;
+  margin-top: 10px;
   font-size: 13px;
 }
 
@@ -137,23 +137,24 @@ a {
 }
 
 }
+/* akhir dekstop vers */
+
+
   
   .jumbotron {
       height: 640px;
       weight: 1080px;
   }
-
-  .jumbotron .display-4 {
-      font-size: 62px;
-  }
+  
+ 
 
   .byg h2 {
-      text-align: left;
-      font-weight: bold;
+  text-align: left;
+  font-weight: bold;
   }
 
   .byg2 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   }
 
 
@@ -173,10 +174,8 @@ a {
   src: url(https:/soundcloud.com/bangxter);
   }
 
-  .testimonial h5 {
-      font-size: 32px;
-  }
-}
+  
+
 
 .byg h2 {
   text-align: left;
@@ -186,33 +185,37 @@ a {
 .byg2 {
 margin-bottom: 50px;
 }
+
 .byg img {
   align-content: center;
-    }
-  }
-
-  .byg p {
-    margin: 50px;
-  }
-
-@media (min-width: 576px) {
-  .jumbotron {
-    margin-top: 500px;
-  }
-
-  .byg img {
-align-content: center;
   }
 }
+
+.byg p {
+  margin: 50px;
+}
+
+/* tablet version */
+@media (min-width: 576px) {
+  .jumbotron {
+    margin-top: 50px;
+  }
+
+  .byg2 img {
+  margin-left: 20px;
+  }
+  
+}
+/* akhir tablet vers */
 
 .jumbotron {
   margin-top: -70px;
 }
 
-.music {
-  background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
-  min-height: 100vh;
-
+.tz-video p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 .container.gallery-container {
@@ -226,34 +229,29 @@ align-content: center;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
 
-
-/* .card-body p{
-  margin-left: -20px;
-}
-
-.card-text p {
-  margin-left: -20px;
-} */
-
 .baguetteBox-button {
   background-color: transparent !important;
 }
 
-
+/* versi tablet */
 @media(max-width: 768px) {
   body {
-      padding: 0;
+  padding: 0;
+  }
+
+  .jumbotron {
+  padding-top: 70px;
   }
 
   .container.video-container {
-      border-radius: 0;
-  }
+  border-radius: 0;
+  }  
 }
+/* akhir versi tablet */
 
 
 
   /* Style the counter cards */
-
   .card {
     widows: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -265,7 +263,7 @@ align-content: center;
   }
 
   .card p {
-    margin-left: -30px;
+    margin-left: 0px;
   }
 
   .card-columns {
@@ -292,8 +290,13 @@ align-content: center;
     font-weight: bold;
     font-size: 20px;
   }
+
+  .card h5 {
+  font-weight: bold;
+}
+
   .card a {
-font-size: 15px;
+  font-size: 15px;
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
